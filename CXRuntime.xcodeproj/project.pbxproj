@@ -22,6 +22,7 @@
 		C0C8312F218AA5CF008CA782 /* CXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8312E218AA5CF008CA782 /* CXPerson.m */; };
 		C0CE69702192E588009437EF /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE696F2192E588009437EF /* Movie.m */; };
 		C0CE69732192E596009437EF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE69722192E596009437EF /* User.m */; };
+		C0CE69C321930C81009437EF /* UIFont+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE69C221930C81009437EF /* UIFont+Addtion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		C0CE696F2192E588009437EF /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		C0CE69712192E596009437EF /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		C0CE69722192E596009437EF /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C0CE69C121930C81009437EF /* UIFont+Addtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Addtion.h"; sourceTree = "<group>"; };
+		C0CE69C221930C81009437EF /* UIFont+Addtion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Addtion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				C066D03B219008D900EFAEB9 /* NSURL+ExchangeMethod.h */,
 				C066D03C219008D900EFAEB9 /* NSURL+ExchangeMethod.m */,
+				C0CE69C121930C81009437EF /* UIFont+Addtion.h */,
+				C0CE69C221930C81009437EF /* UIFont+Addtion.m */,
 			);
 			path = "方法交换";
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				C066D03D219008D900EFAEB9 /* NSURL+ExchangeMethod.m in Sources */,
 				C066D0692190410A00EFAEB9 /* NSString+AddProperty.m in Sources */,
 				C0C830E3218AA289008CA782 /* main.m in Sources */,
+				C0CE69C321930C81009437EF /* UIFont+Addtion.m in Sources */,
 				C09360C4218EA061008DBECC /* Dog.m in Sources */,
 				C0CE69702192E588009437EF /* Movie.m in Sources */,
 				C066D0462190099E00EFAEB9 /* AnimalModel.m in Sources */,

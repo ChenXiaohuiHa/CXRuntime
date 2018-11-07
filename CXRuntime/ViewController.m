@@ -50,7 +50,7 @@
 //    [self encodeAndCoder];
     
     #pragma mark ---------- 字典模型转换 ----------
-    [self dicToModel];
+//    [self dicToModel];
 }
 #pragma mark ---------- 消息发送 ----------
 - (void)drink {
@@ -95,11 +95,20 @@
 #pragma mark ---------- 类别方法交换 ----------
 - (void)exchangeMethod {
     
+    //对 URL 进行中文编码, 并去除 空格
     NSURL *url = [NSURL URLWithString:@"http://osg-omgmt0005/member/c9/ f12我"];
     
     if (!url) {
         NSLog(@"URL 格式不正确");
     }
+    
+    
+    //动态适配文字大小
+    UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 100)];
+    label.text = @"珂朵莉·诺塔·瑟尼欧里斯是动画《末日时在做什么？有没有空？可以来拯救吗？》中的女主角，五位成体妖精兵之一。最强圣剑“瑟尼欧里斯”的适合者";
+    label.backgroundColor = [UIColor blueColor];
+    label.font = [UIFont systemFontOfSize:16];
+    [self.view addSubview:label];
 }
 
 #pragma mark ---------- 自动归结档 ----------
