@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C066D026218FEF2600EFAEB9 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D025218FEF2600EFAEB9 /* Cat.m */; };
+		C066D03D219008D900EFAEB9 /* NSURL+ExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D03C219008D900EFAEB9 /* NSURL+ExchangeMethod.m */; };
+		C066D0462190099E00EFAEB9 /* AnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D0452190099E00EFAEB9 /* AnimalModel.m */; };
+		C066D0692190410A00EFAEB9 /* NSString+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D0682190410A00EFAEB9 /* NSString+AddProperty.m */; };
+		C09360C4218EA061008DBECC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C09360C3218EA061008DBECC /* Dog.m */; };
+		C0C51BB9219186860043588C /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C51BB8219186860043588C /* NSObject+Extension.m */; };
 		C0C830D5218AA288008CA782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C830D4218AA288008CA782 /* AppDelegate.m */; };
 		C0C830D8218AA288008CA782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C830D7218AA288008CA782 /* ViewController.m */; };
 		C0C830DB218AA288008CA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C830D9218AA288008CA782 /* Main.storyboard */; };
 		C0C830DD218AA289008CA782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C830DC218AA289008CA782 /* Assets.xcassets */; };
 		C0C830E0218AA289008CA782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C830DE218AA289008CA782 /* LaunchScreen.storyboard */; };
 		C0C830E3218AA289008CA782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C830E2218AA289008CA782 /* main.m */; };
+		C0C8312F218AA5CF008CA782 /* CXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8312E218AA5CF008CA782 /* CXPerson.m */; };
+		C0CE69702192E588009437EF /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE696F2192E588009437EF /* Movie.m */; };
+		C0CE69732192E596009437EF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE69722192E596009437EF /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C066D024218FEF2600EFAEB9 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		C066D025218FEF2600EFAEB9 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		C066D03B219008D900EFAEB9 /* NSURL+ExchangeMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+ExchangeMethod.h"; sourceTree = "<group>"; };
+		C066D03C219008D900EFAEB9 /* NSURL+ExchangeMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ExchangeMethod.m"; sourceTree = "<group>"; };
+		C066D0442190099E00EFAEB9 /* AnimalModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalModel.h; sourceTree = "<group>"; };
+		C066D0452190099E00EFAEB9 /* AnimalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalModel.m; sourceTree = "<group>"; };
+		C066D0672190410A00EFAEB9 /* NSString+AddProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AddProperty.h"; sourceTree = "<group>"; };
+		C066D0682190410A00EFAEB9 /* NSString+AddProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddProperty.m"; sourceTree = "<group>"; };
+		C09360C2218EA061008DBECC /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C09360C3218EA061008DBECC /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C0C51BB7219186860043588C /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		C0C51BB8219186860043588C /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 		C0C830D0218AA288008CA782 /* CXRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C830D3218AA288008CA782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0C830D4218AA288008CA782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +47,12 @@
 		C0C830DF218AA289008CA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C830E1218AA289008CA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0C830E2218AA289008CA782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0C8312D218AA5CF008CA782 /* CXPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPerson.h; sourceTree = "<group>"; };
+		C0C8312E218AA5CF008CA782 /* CXPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPerson.m; sourceTree = "<group>"; };
+		C0CE696E2192E588009437EF /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		C0CE696F2192E588009437EF /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		C0CE69712192E596009437EF /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C0CE69722192E596009437EF /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C066D02A2190071D00EFAEB9 /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				C066D02B2190074500EFAEB9 /* 1.动态方法解析 */,
+				C066D02C2190075800EFAEB9 /* 2.备用接收者 */,
+				C066D02E2190076B00EFAEB9 /* 3.完整消息转发 */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
+		C066D02B2190074500EFAEB9 /* 1.动态方法解析 */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8312D218AA5CF008CA782 /* CXPerson.h */,
+				C0C8312E218AA5CF008CA782 /* CXPerson.m */,
+			);
+			name = "1.动态方法解析";
+			sourceTree = "<group>";
+		};
+		C066D02C2190075800EFAEB9 /* 2.备用接收者 */ = {
+			isa = PBXGroup;
+			children = (
+				C09360C2218EA061008DBECC /* Dog.h */,
+				C09360C3218EA061008DBECC /* Dog.m */,
+			);
+			name = "2.备用接收者";
+			sourceTree = "<group>";
+		};
+		C066D02E2190076B00EFAEB9 /* 3.完整消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				C066D024218FEF2600EFAEB9 /* Cat.h */,
+				C066D025218FEF2600EFAEB9 /* Cat.m */,
+			);
+			name = "3.完整消息转发";
+			sourceTree = "<group>";
+		};
+		C066D0412190093C00EFAEB9 /* 添加属性 */ = {
+			isa = PBXGroup;
+			children = (
+				C066D0672190410A00EFAEB9 /* NSString+AddProperty.h */,
+				C066D0682190410A00EFAEB9 /* NSString+AddProperty.m */,
+			);
+			path = "添加属性";
+			sourceTree = "<group>";
+		};
+		C066D0432190095100EFAEB9 /* 方法交换 */ = {
+			isa = PBXGroup;
+			children = (
+				C066D03B219008D900EFAEB9 /* NSURL+ExchangeMethod.h */,
+				C066D03C219008D900EFAEB9 /* NSURL+ExchangeMethod.m */,
+			);
+			path = "方法交换";
+			sourceTree = "<group>";
+		};
+		C066D047219009B100EFAEB9 /* 自动归结档 */ = {
+			isa = PBXGroup;
+			children = (
+				C066D0442190099E00EFAEB9 /* AnimalModel.h */,
+				C066D0452190099E00EFAEB9 /* AnimalModel.m */,
+			);
+			path = "自动归结档";
+			sourceTree = "<group>";
+		};
+		C066D04B21900A1E00EFAEB9 /* 字典模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				C0C51BB7219186860043588C /* NSObject+Extension.h */,
+				C0C51BB8219186860043588C /* NSObject+Extension.m */,
+				C0CE696E2192E588009437EF /* Movie.h */,
+				C0CE696F2192E588009437EF /* Movie.m */,
+				C0CE69712192E596009437EF /* User.h */,
+				C0CE69722192E596009437EF /* User.m */,
+			);
+			path = "字典模型转换";
+			sourceTree = "<group>";
+		};
 		C0C830C7218AA288008CA782 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +166,11 @@
 				C0C830D4218AA288008CA782 /* AppDelegate.m */,
 				C0C830D6218AA288008CA782 /* ViewController.h */,
 				C0C830D7218AA288008CA782 /* ViewController.m */,
+				C066D02A2190071D00EFAEB9 /* 消息转发 */,
+				C066D0412190093C00EFAEB9 /* 添加属性 */,
+				C066D0432190095100EFAEB9 /* 方法交换 */,
+				C066D047219009B100EFAEB9 /* 自动归结档 */,
+				C066D04B21900A1E00EFAEB9 /* 字典模型转换 */,
 				C0C830D9218AA288008CA782 /* Main.storyboard */,
 				C0C830DC218AA289008CA782 /* Assets.xcassets */,
 				C0C830DE218AA289008CA782 /* LaunchScreen.storyboard */,
@@ -141,9 +250,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CE69732192E596009437EF /* User.m in Sources */,
+				C066D026218FEF2600EFAEB9 /* Cat.m in Sources */,
 				C0C830D8218AA288008CA782 /* ViewController.m in Sources */,
+				C066D03D219008D900EFAEB9 /* NSURL+ExchangeMethod.m in Sources */,
+				C066D0692190410A00EFAEB9 /* NSString+AddProperty.m in Sources */,
 				C0C830E3218AA289008CA782 /* main.m in Sources */,
+				C09360C4218EA061008DBECC /* Dog.m in Sources */,
+				C0CE69702192E588009437EF /* Movie.m in Sources */,
+				C066D0462190099E00EFAEB9 /* AnimalModel.m in Sources */,
+				C0C51BB9219186860043588C /* NSObject+Extension.m in Sources */,
 				C0C830D5218AA288008CA782 /* AppDelegate.m in Sources */,
+				C0C8312F218AA5CF008CA782 /* CXPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +404,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = CXRuntime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +422,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = CXRuntime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
