@@ -11,6 +11,7 @@
 		C066D03D219008D900EFAEB9 /* NSURL+ExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D03C219008D900EFAEB9 /* NSURL+ExchangeMethod.m */; };
 		C066D0462190099E00EFAEB9 /* AnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D0452190099E00EFAEB9 /* AnimalModel.m */; };
 		C066D0692190410A00EFAEB9 /* NSString+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C066D0682190410A00EFAEB9 /* NSString+AddProperty.m */; };
+		C06F6C7E22F58844002350C6 /* CXDynamicCreateCalss.m in Sources */ = {isa = PBXBuildFile; fileRef = C06F6C7D22F58844002350C6 /* CXDynamicCreateCalss.m */; };
 		C09360C4218EA061008DBECC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C09360C3218EA061008DBECC /* Dog.m */; };
 		C0C51BB9219186860043588C /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C51BB8219186860043588C /* NSObject+Extension.m */; };
 		C0C830D5218AA288008CA782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C830D4218AA288008CA782 /* AppDelegate.m */; };
@@ -34,6 +35,8 @@
 		C066D0452190099E00EFAEB9 /* AnimalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalModel.m; sourceTree = "<group>"; };
 		C066D0672190410A00EFAEB9 /* NSString+AddProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AddProperty.h"; sourceTree = "<group>"; };
 		C066D0682190410A00EFAEB9 /* NSString+AddProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddProperty.m"; sourceTree = "<group>"; };
+		C06F6C7C22F58844002350C6 /* CXDynamicCreateCalss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDynamicCreateCalss.h; sourceTree = "<group>"; };
+		C06F6C7D22F58844002350C6 /* CXDynamicCreateCalss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDynamicCreateCalss.m; sourceTree = "<group>"; };
 		C09360C2218EA061008DBECC /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		C09360C3218EA061008DBECC /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		C0C51BB7219186860043588C /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
@@ -148,6 +151,15 @@
 			path = "字典模型转换";
 			sourceTree = "<group>";
 		};
+		C06F6C7B22F587F7002350C6 /* 动态创建类 */ = {
+			isa = PBXGroup;
+			children = (
+				C06F6C7C22F58844002350C6 /* CXDynamicCreateCalss.h */,
+				C06F6C7D22F58844002350C6 /* CXDynamicCreateCalss.m */,
+			);
+			path = "动态创建类";
+			sourceTree = "<group>";
+		};
 		C0C830C7218AA288008CA782 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +183,7 @@
 				C0C830D4218AA288008CA782 /* AppDelegate.m */,
 				C0C830D6218AA288008CA782 /* ViewController.h */,
 				C0C830D7218AA288008CA782 /* ViewController.m */,
+				C06F6C7B22F587F7002350C6 /* 动态创建类 */,
 				C066D02A2190071D00EFAEB9 /* 消息转发 */,
 				C066D0412190093C00EFAEB9 /* 添加属性 */,
 				C066D0432190095100EFAEB9 /* 方法交换 */,
@@ -268,6 +281,7 @@
 				C0C51BB9219186860043588C /* NSObject+Extension.m in Sources */,
 				C0C830D5218AA288008CA782 /* AppDelegate.m in Sources */,
 				C0C8312F218AA5CF008CA782 /* CXPerson.m in Sources */,
+				C06F6C7E22F58844002350C6 /* CXDynamicCreateCalss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

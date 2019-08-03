@@ -15,7 +15,8 @@
 - (void)encodeWithCoder:(NSCoder *)aCoder {
     //利用runtime 归档
     unsigned int count = 0;
-    Ivar *ivars = class_copyIvarList([AnimalModel class], &count);
+    Ivar *ivars = class_copyIvarList([self class], &count);
+    
     for (int i = 0; i < count; i++) {
         Ivar ivar = ivars[i];
         const char *name = ivar_getName(ivar);
@@ -31,7 +32,7 @@
     if (self = [super init]) {
         //解档
         unsigned int count = 0;
-        Ivar *ivars = class_copyIvarList([AnimalModel class], &count);
+        Ivar *ivars = class_copyIvarList([self class], &count);
         for (int i = 0; i < count; i++) {
             Ivar ivar = ivars[i];
             const char *name = ivar_getName(ivar);
